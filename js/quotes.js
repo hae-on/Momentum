@@ -46,6 +46,7 @@ const quotes = [
 const quote = document.querySelector("#quote span:first-child");
 const movie = document.querySelector("#quote span:last-child");
 
+// random함수로 숫자를 뽑아내는데 소숫점이 출력됨. 따라서 floor로 내림을 해줌
 const todayQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
 quote.innerText = todayQuote.quote;
