@@ -15,8 +15,8 @@ function onGeoOk(position) {
 
 const API_KEY = "dbcf3835a5244a4ebb87a5c9fceed833";
 
-function onGeoError() {
-  alert("Can't find you. No weather for you.");
-}
+// function onGeoError() {
+//   alert("Can't find you. No weather for you.");
+// }
 
 navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);

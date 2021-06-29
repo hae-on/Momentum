@@ -9,15 +9,15 @@ const quotes = [
     movie: "Harry Potter",
   },
   {
-    quote: "Sometimes the right path is not the easiest one ",
+    quote: "Sometimes the right path is not the easiest one. ",
     movie: "Pocahontas",
   },
   {
-    quote: "Remember, you are the one who can fill the world with sunshine",
+    quote: "Remember, you are the one who can fill the world with sunshine.",
     movie: "Snow white",
   },
   {
-    quote: "Some people are worth melting for",
+    quote: "Some people are worth melting for.",
     movie: "Frozen 2",
   },
   {
@@ -27,12 +27,12 @@ const quotes = [
   },
   { quote: "To make each day count", movie: "Titanic" },
   {
-    quote: "Knowing is the easy part, saying it out loud is the hard part",
+    quote: "Knowing is the easy part, saying it out loud is the hard part.",
     movie: "Laboum",
   },
   {
     quote:
-      "When you do decide to try it, it won't be any good. You shold take a chance. Got nothing to lose",
+      "When you do decide to try it, it won't be any good. You shold take a chance. Got nothing to lose.",
     movie: "Home Alone",
   },
   {

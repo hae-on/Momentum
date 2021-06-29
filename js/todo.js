@@ -34,6 +34,7 @@ function paintToDo(newTodo) {
   li.appendChild(span);
   li.appendChild(button);
   toDoList.appendChild(li);
+  button.classList.add("todo-btn");
 }
 
 function handleToDoSubmit(event) {

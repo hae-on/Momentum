@@ -2,6 +2,10 @@
   display: none;
 }
 
+* {
+  color: white;
+}
+
 .bgImage {
   position: absolute;
   top: 0;
@@ -10,4 +14,120 @@
   height: 100%;
   z-index: -1;
   animation: fadeIn 0.5s linear;
+}
+
+#clock {
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7%;
+  margin-bottom: 0;
+}
+
+#login-form {
+  margin-left: 510px;
+}
+
+.login-input {
+  height: 40px;
+  width: 360px;
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  text-align: center;
+  outline: none;
+}
+
+.login-input:focus::placeholder {
+  color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.login-btn {
+  background-color: transparent;
+  border: solid 2px white;
+  border-radius: 2px;
+  padding: 10px 8px;
+}
+
+#greeting {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+
+#todo-form {
+  display: flex;
+  justify-content: center;
+}
+
+.todo-input {
+  height: 60px;
+  width: 360px;
+  border: none;
+  border-bottom: solid 2px white;
+  background-color: transparent;
+  font-size: 20px;
+
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+
+.todo-input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: white;
+}
+
+.todo-input:focus::placeholder {
+  color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+#todo-list {
+  flex-direction: column;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.todo-btn {
+  margin-bottom: 15px;
+  margin-left: 5px;
+  background-color: transparent;
+  border: none;
+}
+
+.todo-list-bg {
+  background-color: rgba(50, 50, 50, 0.5);
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 30px;
+  margin-left: 30%;
+  border-radius: 2%;
+}
+
+#quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  position: fixed;
+  bottom: 20px;
+  width: 100%;
+}
+
+.quotes {
+}
+
+.movie {
+  font-size: 20px;
+  margin-top: 10px;
 }

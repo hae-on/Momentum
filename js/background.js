@@ -11,4 +11,5 @@ bgImage.src = `img/${randomBg}`;
 // html에 bgImage를 추가해준다. 랜덤하게 바뀌기에 html에 직접 넣어주진 못함
 document.body.appendChild(bgImage);
 
+// 배경 이미지에 class를 주어 css 스타일링이 가능하도록 만듦
 bgImage.classList.add("bgImage");
