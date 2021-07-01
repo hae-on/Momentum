@@ -1,4 +1,4 @@
-const images = ["0.jpg", "1.jpg", "2.jpeg", "3.jpeg", "4.jpeg"];
+const images = ["0.JPG", "1.JPG", "2.jpeg", "3.jpeg", "4.jpeg"];
 
 const randomBg = images[Math.floor(Math.random() * images.length)];
 
