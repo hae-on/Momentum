@@ -6,6 +6,10 @@
   color: white;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 .bgImage {
   position: absolute;
   top: 0;
@@ -26,7 +30,8 @@
 }
 
 #login-form {
-  margin-left: 510px;
+  display: flex;
+  justify-content: center;
 }
 
 .login-input {
@@ -122,9 +127,6 @@
   position: fixed;
   bottom: 20px;
   width: 100%;
-}
-
-.quotes {
 }
 
 .movie {
